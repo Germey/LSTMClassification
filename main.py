@@ -1,10 +1,8 @@
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
-import numpy as np
-
-# Get Mnist Data
 from tensorflow.python.ops.rnn_cell_impl import DropoutWrapper
 
+# Get Mnist Data
 mnist = input_data.read_data_sets('MNIST_data/', one_hot=True)
 
 # Variable
